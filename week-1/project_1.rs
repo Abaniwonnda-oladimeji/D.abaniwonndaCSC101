@@ -1,9 +1,14 @@
+//project_2
 fn main() {
-    let p = 250000;
-    let r = 10;
-    let n = 5;
-    let a = p*(1+(r/100))*n;
+    let p = 520000.00;
+    let r = 10.00;
+    let n = 5.00;
+    let base = 1.00+r/100.00;
+//f32 is used for floating point numbers
+    let base = base as f32;
+//powf is used for raising floating point numbers to a power    
+    let a = p*(base.powf(n));
     let ci = a-p;
     println!("total amount is {}",a);
-    println!("total amount is {}",ci);
+    println!("simple interest is {}",ci);
  }
