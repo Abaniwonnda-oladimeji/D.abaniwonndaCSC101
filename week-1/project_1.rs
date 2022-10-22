@@ -5,5 +5,5 @@ fn main() {
     let a = p*(1+(r/100))*n;
     let ci = a-p;
     println!("total amount is {}",a);
-    println!("compound interest is {}",ci);
+    println!("total amount is {}",ci);
  }
