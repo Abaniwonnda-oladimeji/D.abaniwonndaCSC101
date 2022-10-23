@@ -9,6 +9,6 @@ fn main() {
 //powf is used for raising floating point numbers to a power    
     let a = p*(base.powf(n));
     let ci = a-p;
-    println!("total amount is {}",a);
-    println!("simple interest is {}",ci);
+    println!("total amount is {}naira",a);
+    println!("compound interest is {}naira",ci);
  }

@@ -6,7 +6,7 @@ fn main() {
     let dell = 3 * 2850000;
     let acer = 1*250000;
 //finding sum
-    println!("the total sum is {}",toshiba+mac+hp+dell+acer);
+    println!("the total sum is {}naira",toshiba+mac+hp+dell+acer);
 //finding average
-    println!("the total average is {}",(toshiba+mac+hp+dell+acer)/10);
+    println!("the total average is {}naira",(toshiba+mac+hp+dell+acer)/10);
 }
