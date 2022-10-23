@@ -1,4 +1,5 @@
 //project_2
+// listing variables
 fn main() {
     let toshiba = 2 * 450000;
     let mac = 1 * 1500000;
